@@ -1,0 +1,46 @@
+https://peps.python.org/pep-0008/#fn-hi
+# peps8 is a rule book on how to correctly stylize your code
+
+title() # to capitalize each word
+	upper()
+	lower()
+strip() # remove white space on both sides of words
+	rstrip() # remove on right only
+	lstrip() # remove on left only
+split() # turn variables into lists
+		# example bikes = "ducati honda kawasaki"
+				# bikes = bikes.split()
+				# print(bikes)
+				# >>> ['ducati', 'honda', 'kawasaki']
+				# print(bikes[-1])
+				# >>>kawasaki
+tuple makes an unmodifiable list
+		# example bikes = (red, blue, grey)
+		# example bikes = (red,)
+append() # add additional item at end of list
+		# example bread = []
+				# bread.append['rye']
+				# bread.append['wheat']
+				# print(bread)
+				# >>>['rye', 'wheat']
+insert() # add a new element at any position in your list
+		# example car = ['red', 'blue']
+				# car.insert(1, 'yellow')
+				# print(car)
+				# >>>['red','yellow','blue']
+del # remove item
+	# del car(1)
+pop() # remove and use item from list
+	# popped_car = car.pop(3)
+	print(popped_car)
+remove() # if I know value but not positiion of item
+sorted() # sort list in alphabetical order
+reverse() # sort in reverse alphabetical order
+len() # count items in list or characters and whitespace in variable
+friend_foods = my_foods[:] # copies list by using [:] without it would	
+					# able to add items to first list or make them different
+dictionary # variable = {'key': 'value', 'key': value, 'key': ['value'], 
+						'key': "value", 'key': {'key': 'value'}}
+
+import time
+time.sleep() #add pauses between strings
